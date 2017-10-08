@@ -12,11 +12,14 @@ class Test extends CI_Controller{
 //    $this->db->insert("student",$data); 
 
    //update
-   $update = array('name'=>'Ahmed');
+//    $update = array('name'=>'Ahmed');
    
-   $this->db->set($update);
-   $this->db->where("id",'3');
-   $this->db->update("student",$update);
+//    $this->db->set($update);
+//    $this->db->where("id",'3');
+//    $this->db->update("student",$update);
+
+//delete
+        $this->db->delete("student","id=2");
 }
       
 }
