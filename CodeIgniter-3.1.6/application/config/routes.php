@@ -52,3 +52,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['student'] = "Student_Control";
+$route['student/add_view'] = 'Student_Control/add_student_view';
+$route['student/edit/(\d+)'] = 'Student_Control/update_student_view/$1';
+$route['student/delete/(\d+)'] = 'Student_Control/delete_student/$1';

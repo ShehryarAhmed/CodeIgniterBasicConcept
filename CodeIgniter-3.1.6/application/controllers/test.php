@@ -2,12 +2,11 @@
 class Test extends CI_Controller{
 
      public function index(){
-        // echo "Hello Test php";
-        // $this->load->view('test');
-    // echo "Model";
+        echo "Hello Test php";
+	        $this->load->view('test');
 //    $this->load->model('Model_class');
 
-//    $data = array('name'=>'Shehryar');
+//    $data = array('name'=>'hamza');
    
 //    $this->db->insert("student",$data); 
 
@@ -29,7 +28,7 @@ class Test extends CI_Controller{
 //         echo "All record ".$data;
 // 
 
-$this->db->close();
+// $this->db->close();
 }
       
 }
